@@ -1,0 +1,162 @@
+{
+  "settings": {
+    "name": "Stand Out Guide",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "unicore",
+      "title": "Unicore",
+      "styling": {
+        "primaryColor": "#29d9c2",
+        "successColor": "#7ac673",
+        "infoColor": "#27aae0",
+        "warningColor": "#faaf40",
+        "dangerColor": "#f97352",
+        "titleFont": "Montserrat",
+        "textFont": "Raleway",
+        "isSquareButtons": false
+      }
+    },
+    "versionFirst": "4.2.3",
+    "uniqCompNum": 2,
+    "versionPublish": "4.2.3"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showForm": true,
+            "paddingTop": "1",
+            "paddingBottom": 2,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-2000x1333.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#4c6972",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75,
+            "showIcons": true,
+            "iconsColor": "#fff",
+            "icon1": "fa-bolt",
+            "icon2": "fa-magnet"
+          },
+          "title": "Get the Guide!",
+          "title1": "The Stand Out Guide to Online Branding",
+          "title2": "Social media + real estate = Real Social",
+          "title3": "Go on! Google yourself!",
+          "text1": "There's no doubt the online world looks different to realtors! Learn how to build a profile that gets attention and sets yourself apart on all major networks, including: Realtor.com, Zillow, NextDoor, Yelp, Facebook, Twitter &amp; Instagram.",
+          "text2": "Google rules them all! Here's how to set yourself up as a business on Google and leverage their impressive reach. Show up on Google Maps, get reviews, populate higher on search results, and get your start with Google AdWords (their digital ads platform).",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Ready to stand out?</a>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "ashley.ray@dilbeck.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "First Name",
+                "customTitle": "First Name"
+              },
+              "lastName": {
+                "visible": true,
+                "title": "Last Name",
+                "customTitle": "Last Name"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email Address",
+                "customTitle": "Email Address"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone No.",
+                "customTitle": "Phone No."
+              }
+            }
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-0"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#333",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5,
+            "googleMap": {
+              "address": "1030 Foothill Blvd.\nLa Canada, CA 91011",
+              "placeId": "ChIJxQeTkv7pwoARwqJrjOQnSOg",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "title1": "Dilbeck real estate",
+          "text1": "A family owned real estate company helping neighbors create new beginnings and lasting memories throughout SoCal since 1950.",
+          "icons": "<a class=\"fa\" data-app-btn=\"true\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/company/27677/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-linkedin\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/dilbeckre\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-facebook\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/dilbeckre\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-twitter\"></i></a>   <a class=\"fa\" data-app-btn=\"true\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/dilbeckre\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"><i class=\"fa fa-instagram\"></i></a> ",
+          "text2": "Working Hours:<br>Mon - Fri &nbsp; 9AM - 5PM",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\">Send Message<i class=\"fa fa-paper-plane-o\"></i></a>",
+          "title": "Got a question? Just ask!",
+          "form": {
+            "action": "ashley.ray@dilbeck.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Your Name"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email Address"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Ask away! Say hi! Or just bother us, we don't mind, no, really!"
+              }
+            }
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts4",
+          "_anchor": "contacts4-1"
+        }
+      ]
+    }
+  }
+}
