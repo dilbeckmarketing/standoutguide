@@ -16,6 +16,8 @@
         "isSquareButtons": false
       }
     },
+    "favicon": "@PROJECT_PATH@/assets/images/img-4ef73d1ed3b5-1-75x75.png",
+    "noImageResize": "",
     "versionFirst": "4.2.3",
     "uniqCompNum": 2,
     "versionPublish": "4.2.3"
